@@ -1,0 +1,17 @@
+[project]
+name = "overhill-underdale"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Sam Phinizy", email = "83414895+sam-phinizy@users.noreply.github.com" }
+]
+dependencies = [
+    "mkdocs-material>=9.5.25",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
