@@ -1,4 +1,6 @@
 
+# Magic
+
 # Arcane Magic
 Spells:
 All spells have a level, to cast a spell a character rolls their 'Smart' die against the spells target. If they exceed the level then they succeed. If they roll a one then a spell mishap happens. Roll on the spell mishaps table. A magic user can choose to push their spell. This means they can roll extra dice up to their level divided by two rounded down. They can then roll the die the next step down from their smarts. So a 2nd level magic user with D8 smarts could choose to push the spell and roll a D8 and a D6, both raising the chance of success but also raising the risk of rolling on the spell mishaps.
