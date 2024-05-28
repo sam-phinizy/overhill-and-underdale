@@ -2,12 +2,22 @@
 # Magic
 
 # Arcane Magic
-Spells:
-All spells have a level, to cast a spell a character rolls their 'Smart' die against the spells target. If they exceed the level then they succeed. If they roll a one then a spell mishap happens. Roll on the spell mishaps table. A magic user can choose to push their spell. This means they can roll extra dice up to their level divided by two rounded down. They can then roll the die the next step down from their smarts. So a 2nd level magic user with D8 smarts could choose to push the spell and roll a D8 and a D6, both raising the chance of success but also raising the risk of rolling on the spell mishaps.
+
+## Casting Magic
+
+To cast a spell a player rolls the character's smarts die and compares the result to the spells level. If the smarts die is >= to the spell level then the spell suceedes. If it's lower then the spells level then the spell fails. If they roll a one then they roll on the spell mishaps table adding the spells level to the roll.
+
+They can choose to push their spell. This means they add additional dice to roll. Each die is compared against the spells target level accruing a successes and failures. A character can choose to push the roll up to their level divided by two rounded down. The first die they add is equal to their smarts. The next one is the next step down and so forth down to a d2. 
 
 ## Spells
 
-Magic Dart(Level 2): Do a Smarts attack for each die that succeeds at the dies level against monsters. 
+Magic Dart(Level 1): Do a Smarts ranged attack for each die that succeeds at the dies level against monsters.
+
+## Learning Spells
+
+A character with a week of study can attempt to learn a spell from a scroll that they find. To do so they roll smarts against the spell level. They need to succeed a number of times equal to the spells level - their level to a minimum of 1.
+
+Hard Mode: If you roll a one then the scrolls crumbles into dust and you don't learn the spell.
 
 
 # Divine Magic
