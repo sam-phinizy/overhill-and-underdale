@@ -6,6 +6,7 @@ Combat is resolved in the following way:
 
 ## Engagement
 The party can choose to:
+
 - Immediately attack
 - Try to talk to the monsters
 - Try to sneak past them
