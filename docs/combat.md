@@ -21,13 +21,13 @@ Each round is played as follows:
 
 The basic combat mechanic works as follows:
 - The character rolls the applicable die for their action.
-- If the character's roll exceeds the monster's defense value, they hit the monster.
+- If the character's roll exceeds the monster group's defense value, they hit the monster.
 - For every multiple of the monster's defense value the character rolls, they hit the monster an additional time.
 
-For example, using a D6 for a character and a monster with a defense of 3:
+For example, using a D6 for a character and a monster group with a defense of 3:
 - If the character rolls a 2, they miss.
-- If the character rolls a 4, they hit the monster once.
-- If the character rolls a 6, they hit the monster twice.
+- If the character rolls a 4, they hit the monster group once killing one of them.
+- If the character rolls a 6, they hit the monster group twice killing two of them.
 
 Then the monsters attack. Each monster picks a character to attack, starting with the one that did the most damage to them last round. The character rolls the applicable die for their defense. If they roll over the monster's attack value, they dodge the attack.
 
@@ -37,7 +37,7 @@ Each character can choose a stance at the beginning of the round:
 - Aggressive Stance: +1 to attack, -1 to defense
 - Defensive Stance: +1 to defense, -1 to attack
 - Neutral Stance: No bonus or penalty
-- Rearguard Stance: +1 to defense, -1 to attack. The Rearguard character can only be attacked if all other characters are incapacitated, or by ranged weapons/special abilities.
+- Rearguard Stance:  Rearguard characters can only be attacked if their front guard is outnumbered or by the oppositions rear guard. 
 
 The party formation works as follows:
 - For every character in the Rearguard, there must be two characters in the Front Guard.
