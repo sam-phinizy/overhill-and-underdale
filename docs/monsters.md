@@ -8,5 +8,4 @@ For instance a Gobbo would be this:
 Num appearing: 1d6
 Melee attack: 1, Range: 0, Defense: 1
 
-
 A player attacks a gobbo using melee, they roll their vigor which is a D6. They roll a 4 which is over the goblins defense. This causes them to kill two goblins, 4-2 = 2 and then 2-2=0. 

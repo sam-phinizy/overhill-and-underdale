@@ -1,5 +1,11 @@
 # Overhill and Underdale
 
+## Overview
+
+Overhil and Underdale is a simple roleplaying game designed primarily for solo-roleplaying. It is a simple system that uses the typical polyhedral dice set (D4, D6, D8, D10, D12, D20) to resolves actions. The goal is to have a system that is fun, and easy to use.
+
+## Character Creation
+
 Characters have four attributes:
 
 - Vigor
@@ -7,8 +13,12 @@ Characters have four attributes:
 - Quick
 - Smart
 
+Each attribute is represented by a die. The die represents the character's ability to perform actions. The higher the die, the better the character is at that attribute. 
 
-# Character Classes
+Each character has a class that determines their starting attributes and abilities. 
+
+Each character has a level that represents their experience. The level is used to determine the character's health and other abilities.
+
 
 ## Warrior
 
@@ -16,6 +26,8 @@ Characters have four attributes:
 |-------|------|-------|-------|
 | D8    | D4   | D6    | D4    |
 
+
+Health: Level + 10
 
 ### Abilities
 
@@ -60,8 +72,3 @@ Health: Level + 7
 
 ###  Abilities
 - Can pray using their Wise. See [Divine Magic](magic#divine-magic) for more information.
-
-
-Each character rolls that die plus any level or other modifiers each time they want to do something like attack a group of monsters etc. 
-
-Monsters
