@@ -20,11 +20,13 @@ Each round is played as follows:
 2. Then the monsters take their actions.
 
 The basic combat mechanic works as follows:
+
 - The character rolls the applicable die for their action.
 - If the character's roll exceeds the monster group's defense value, they hit the monster.
 - For every multiple of the monster's defense value the character rolls, they hit the monster an additional time.
 
 For example, using a D6 for a character and a monster group with a defense of 3:
+
 - If the character rolls a 2, they miss.
 - If the character rolls a 4, they hit the monster group once killing one of them.
 - If the character rolls a 6, they hit the monster group twice killing two of them.
