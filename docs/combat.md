@@ -1,5 +1,3 @@
-Here is the text cleaned up:
-
 # Combat
 
 Combat is resolved in the following way:
