@@ -22,13 +22,13 @@ A player attacks a gobbo using melee, they roll their vigor which is a D6. They 
 _Skeletons are the animated bones of the dead. They are slow and easy to hit but can be dangerous in large numbers._
 
 Number Appearing: 1d6
-Melee attack: 1, Range: 0, Defense: 1 against blunt weapons and 2 against everything else
+Melee attack: 3, Range: 0, Defense: 2 against blunt weapons and 3 against everything else
 
 ### Zombies
 _Zombies are relentless and hard to kill._
  
 Number Appearing: 1d4
-Melee attack: 1, Range: 0, Defense: 2
+Melee attack: 4, Range: 0, Defense: 3
 
 ### Armored Zombies
 _Armored zombies are the necromancer's creation. Durable and hard to kill they're the bane of many adventurers._
