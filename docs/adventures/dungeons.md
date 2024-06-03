@@ -12,7 +12,10 @@ In Overhill & Underdale there a few different ways to adventure in a dungeon:
 
 Random pointcrawl dungeons use a technique similiar to what is described on [Merkmail](https://murkdice.substack.com/p/you-liked-that-map-huh?r=3rp84v&utm_campaign=post&utm_medium=web&triedRedirect=true) to randomly generate a dungeon. It focuses on building up the 'network graph' of the dungeon rather then creating a 'concrete' map as described by Merkmail.
 
-You can either hand draw these or use a tool like [TlDraw](https://www.tldraw.com/) to create them. The examples below use TlDraw.
+Every dungeon will have a set of tables that are used for that dungeon. While some are generic such as the [exits table](#exits-table) others are specific to the dungeon such as the [room contents table](#room-contents-table). These should be organized thematically. 
+
+You can either hand draw these or use a tool like [TlDraw](https://www.tldraw.com/),Excalidraw, DrawIo, or MermaidJS to create them. The examples below are created with MermaidJS.
+
 
 
 ### Starting a dungeon
@@ -59,6 +62,23 @@ graph LR
   classDef hidden display: none;
 ```
 
+### Room Contents
 
+For this example we'll use a Gobbo themed dungeon. The rooms will be filled with goblins and goblin related things. In this dungeon you'll encounter Gobbos(wild goblins) as well as their pets and traps.
 
+<a name="room-contents-table"></a>
+
+| Roll (2d6) | Contents                                                      |
+| ---------- | ------------------------------------------------------------- |
+| 2          | Empty                                                         |
+| 3          | 1d6 Gobbos, 1 Gobbo Bone Shaman                               |
+| 4          | 1d6 Gobbos, 1 Gobbo Bone Shaman, 1d4 Gobbo Dogs               |
+| 5          | 1d6 Gobbos, 1 Gobbo Bone Shaman, 1d4 Gobbo Dogs, 1 Gobbo Trap |
+| 6          | 1d4 Gobbos, 1d4 Gobbo Archers                                 |
+| 7          | 1d4 Gobbos, 1d4 Gobbo Archers, 1d4 Gobbo Dogs                 |
+| 8          | 1d6 Gobbos, 1 Gobbo Warchief                                  |
+| 9          | 1d8 Gobbos, 1 Gobbo Warchief, 1d4 Gobbo Archers               |
+| 10         | 1 Gobbo Warmonger, 1d6 Gobbos                                 |
+| 11         | 1 Gobbo Warmonger, 1d4 Gobbos, 1d4 Gobbo Archers              |
+| 12         | 1 Gobbo GrandGobbo, 2d4 Gobbos                                |
 
